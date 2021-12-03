@@ -280,6 +280,11 @@ body {
   margin-top: 40px;
 }
 
+.map-container {
+  max-width: 1140px;
+  margin: 0 auto 213px;
+}
+
 .footer {
   background: #316099;
   margin-top: 112px;
@@ -465,6 +470,9 @@ hr {
     width: 335px;
     margin-bottom: 32px;
   }
+  .map-container {
+    margin: 0 0 -48px;
+  }
   .footer {
     margin-top: 109px;
     padding-top: 47px;
@@ -493,6 +501,21 @@ hr {
   }
   .contact-header-text {
     width: 520px;
+  }
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-center-left {
+    margin-bottom: 64px;
+  }
+  .contact-img {
+    margin-bottom: 24px;
   }
 }
 
@@ -587,6 +610,19 @@ hr {
   .img_card {
     margin-bottom: 16px;
   }
+  .contact-center-right {
+    width: 100%;
+  }
+  .h4-contact {
+    font-size: 16px;
+  }
+  .h4 {
+    font-size: 14px;
+  }
+  .send {
+    width: 100%;
+    padding: 15px 0;
+  }
   .footer {
     margin-top: 64px;
     padding-top: 18px;
@@ -626,6 +662,7 @@ hr {
     margin-bottom: 32px;
   }
   .contact-header-text {
+    width: 100%;
     margin: 0 40px;
     font-size: 16px;
   }
