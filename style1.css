@@ -1,10 +1,9 @@
-$max_height: 1140px;
-$font-size: 16px;
-
 * {
     margin: 0;
     padding: 0;
 }
+
+
 
 body {
     font-family: sans-serif;
@@ -21,19 +20,23 @@ body {
 }
 
 .container {
-    max-width: $max_height;
+    max-width: 1140px;
     margin: 0 auto;
+
 }
 
 .top {
-    background: linear-gradient(0deg, #ebf3fb 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
 .top-box {
     min-height: 768px;
     display: flex;
     flex-direction: column;
+
 }
+
+
 
 .header {
     display: flex;
@@ -43,9 +46,9 @@ body {
 }
 
 .p {
-    font-size: $font-size;
+    font-size: 16px;
     line-height: 26px;
-    color: #1f3f68;
+    color: #1F3F68;
     letter-spacing: 0.05em;
     opacity: 0.6;
 }
@@ -55,8 +58,9 @@ body {
 }
 
 .h1 {
-    font-size: $font-size * 4;
-    color: #1f3f68;
+
+    font-size: 64px;
+    color: #1F3F68;
 }
 
 .top-content {
@@ -74,15 +78,16 @@ body {
     line-height: 74px;
     letter-spacing: 0.04em;
     margin-bottom: 32px;
+
 }
 
 .top-button {
-    font-size: $font-size;
+    font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    background: #5a98d0;
+    color: #FFFFFF;
+    background: #5A98D0;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
     padding: 15px 50px;
@@ -95,11 +100,12 @@ body {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
+
 }
 
 .h3 {
     font-weight: 300;
-    font-size: $font-size * 2;
+    font-size: 36px;
     text-align: center;
     letter-spacing: 0.05em;
 }
@@ -115,6 +121,8 @@ body {
     padding-bottom: 64px;
 }
 
+
+
 .what-we-do-information {
     display: flex;
     flex-direction: column;
@@ -122,10 +130,10 @@ body {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
-    color: #1f3f68;
+    color: #1F3F68;
     padding: 44px 32px;
     box-sizing: border-box;
-    background: #ffffff;
+    background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
 }
@@ -138,14 +146,14 @@ body {
 .h4 {
     font-size: 20px;
     line-height: 30px;
-    color: #1f3f68;
+    color: #1F3F68;
 }
 
 .heading-mini {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
-    color: #1f3f68;
+    color: #1F3F68;
     margin-bottom: 14px;
 }
 
@@ -153,8 +161,9 @@ body {
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
-    color: #5a98d0;
+    color: #5A98D0;
     text-decoration: none;
+
 }
 
 .img-center {
@@ -182,11 +191,11 @@ body {
     position: absolute;
     top: 64px;
     right: 64px;
-    font-size: $font-size * 2;
+    font-size: 32px;
     line-height: 46px;
     text-align: right;
     letter-spacing: 0.05em;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .center-parent {
@@ -195,12 +204,14 @@ body {
     margin-top: 32px;
 }
 
+
 .center-text2 {
     top: 32px;
     left: 32px;
     font-size: 28px;
     text-align: left;
 }
+
 
 .main {
     display: flex;
@@ -209,7 +220,7 @@ body {
 }
 
 .input {
-    border: 1px solid #356ead;
+    border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
@@ -221,26 +232,23 @@ body {
 
 .textarea {
     height: 144px;
+
 }
 
 /* кнопка отправить */
 .send {
-    background: #5a98d0;
+    background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     font-weight: 500;
-    font-size: $font-size;
+    font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #ffffff;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 23px 183px;
     margin-top: 40px;
-}
 
-.map-container {
-    max-width: $max_height;
-    margin: 0 auto 213px;
 }
 
 .footer {
@@ -258,19 +266,21 @@ body {
 }
 
 .footer-top-content {
+
     width: 495px;
+
 }
 
 .h3-footer {
     width: 340px;
     line-height: 46px;
-    color: #ffffff;
+    color: #FFFFFF;
     margin-bottom: 32px;
     text-align: left;
 }
 
 .footer-p {
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 hr {
@@ -278,14 +288,14 @@ hr {
 }
 
 .footer-button {
-    font-size: $font-size;
+    font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 12px 80px;
-    background: #5a98d0;
+    background: #5A98D0;
 }
 
 .footer-info {
@@ -297,15 +307,15 @@ hr {
 .footer-li {
     flex-grow: 1;
     flex-basis: 33.3%;
-    font-size: $font-size;
+    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #ffffff;
+    color: #FFFFFF;
     margin-left: 32px;
 }
 
 .copy {
-    color: #ffffff;
+    color: #FFFFFF;
     opacity: 0.4;
 }
 
@@ -317,9 +327,8 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 250px;
-    margin: 50px 0 57px;
+    margin: 55px auto 57px;
     background-image: url(img/ContactUs.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -328,8 +337,7 @@ hr {
 .contact_us {
     line-height: 74px;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    margin-bottom: 16px;
+    color: #FFFFFF;
 }
 
 .contact-header-text {
@@ -342,6 +350,7 @@ hr {
 }
 
 .h4-contact {
+    font-family: Roboto;
     margin: 40px 0px 24px;
     font-weight: 500;
     letter-spacing: 0.04em;
@@ -361,7 +370,7 @@ hr {
     height: 800px;
     padding: 0 56px;
     box-sizing: border-box;
-    background: #ffffff;
+    background: #FFFFFF;
     box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
 }
@@ -369,11 +378,12 @@ hr {
 .phone-text {
     font-family: Roboto;
     font-weight: 300;
-    font-size: $font-size;
+    font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
-    color: #1f3f68;
+    color: #1F3F68;
     margin-left: 19px;
+
 }
 
 .link {
@@ -381,9 +391,6 @@ hr {
 }
 
 @media (max-width: 1024px) {
-    .body {
-        font-family: Roboto;
-    }
     .container {
         margin-left: 32px;
         margin-right: 32px;
@@ -403,9 +410,6 @@ hr {
         margin-bottom: 32px;
     }
 
-    .map-container {
-        margin: 0 0 -48px;
-    }
     .footer {
         margin-top: 109px;
         padding-top: 47px;
@@ -417,6 +421,7 @@ hr {
 
     .footer-top-content {
         width: 336px;
+
     }
 
     .footer-button {
@@ -425,6 +430,7 @@ hr {
 
     .footer-down {
         padding: 0 92px;
+
     }
 
     .footer-info {
@@ -434,20 +440,6 @@ hr {
     .footer-li {
         margin-left: 21px;
         margin-bottom: 25px;
-    }
-
-    .contact-header-text {
-        width: 520px;
-    }
-    .main {
-        flex-direction: column;
-        align-items: center;
-    }
-    .contact-center-left {
-        margin-bottom: 64px;
-    }
-    .contact-img {
-        margin-bottom: 24px;
     }
 }
 
@@ -522,14 +514,15 @@ hr {
     .center-text {
         top: 16px;
         right: 16px;
-        font-size: $font-size;
+        font-size: 16px;
         line-height: 19px;
+
     }
 
     .center-text2 {
         top: 26px;
         left: 16px;
-        font-size: $font-size;
+        font-size: 16px;
         line-height: 19px;
     }
 
@@ -549,21 +542,6 @@ hr {
     .img_card {
         margin-bottom: 16px;
     }
-    .contact-center-right {
-        width: 100%;
-    }
-
-    .h4-contact {
-        font-size: $font-size;
-    }
-
-    .h4 {
-        font-size: 14px;
-    }
-    .send {
-        width: 100%;
-        padding: 15px 0;
-    }
 
     .footer {
         margin-top: 64px;
@@ -576,7 +554,7 @@ hr {
         font-size: 24px;
         line-height: 28px;
         text-align: center;
-        color: #ffffff;
+        color: #FFFFFF;
     }
 
     .footer-p {
@@ -601,14 +579,63 @@ hr {
         margin-top: 37px;
         text-align: center;
     }
-    .contact_us {
-        font-size: 24px;
-        line-height: 28px;
-        margin-bottom: 32px;
-    }
-    .contact-header-text {
-        width: 100%;
-        margin: 0 40px;
-        font-size: $font-size;
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* body {
+    font-family: sans-serif;
+}
+
+.h3 {
+    color: blue;
+    text-align: center;
+}
+
+.back-gray {
+    background-color: grey;
+} */
+
+/* текстовым блокам не задают ширину и высоту
+background-image: url - адрес картинки для фона 
+background-repeat:  повтотирить картинку на все пространство : repeat-x;  повторить по х
+background-position: top; bottom left right
+background-size:
+
+border-...:   (цвет, ширина, вид*/
+
+/* .block {
+    width: 40%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #ccc;
+    background-image: url(img/1532337293877.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text {
+    color: white;
+} */
+
+/* justify-content - выстраивание элементов по горизонатил 
+    align-item - выстраивание элементов по вертикали
+    align-content - только если больше 1 линии, выстраивание линий по вертикали (линию относительно другой линии)
+    flex-direction - разворот главной оси на 90: колонки или строки
+    align-self - верт.выравнивание одного элемента, переопределение align-items */
+
+/* box-sizing: border-box; - чтобы не менялись размеры блока,если добавляем падинги */
